@@ -6,6 +6,81 @@
     <ion-title slot="end">ATT </ion-title>
   </ion-toolbar>
 </ion-header>
- <ion-content color="primary">
 
- </ion-content>
+<ion-menu side="start" contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="tertiary">
+      <ion-grid>
+        <ion-row>
+          <ion-col>
+            <br>
+            <img id="img1" side="end" src="https://ionicframework.com/docs/img/demos/avatar.svg" /></ion-col>
+          <ion-col>
+            <h6 side="start">user</h6>
+            <h6 side="start">user.gmail</h6>
+          </ion-col>
+         
+        </ion-row>
+      </ion-grid>
+      
+      
+      
+    </ion-toolbar>
+  </ion-header>
+  <ion-content class="ion-padding">
+    <ion-list>
+      <ion-item>
+        <ion-label>Notificaciones</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Tareas pendientes</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Tus proyectos personales</ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label>Proyectos en los que eres parte</ion-label>
+      </ion-item>
+      <ion-footer>
+        <ion-item>
+          <ion-label>cerrar sesion</ion-label>
+        </ion-item>
+      </ion-footer>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+<div class="ion-page" id="main-content">
+ 
+</div>
+
+
+
+<ion-content color="primary">
+   <h1> Bienvenido </h1>
+  <h6>Proyectos más recientes: </h6>
+    <ion-card>
+      <ion-card-content>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Proyecto 1</ion-label>
+        </ion-item>
+        <br>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+          </ion-thumbnail>
+          <ion-label>Proyecto 2</ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </ion-content>
+  
+    
+<ion-footer>
+  <ion-toolbar color="tertiary">
+    <ion-title slot="start">ATT</ion-title>
+    </ion-toolbar>
+</ion-footer>
+    
